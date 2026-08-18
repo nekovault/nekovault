@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    background: #0d0b10;
+    color: #ffffff;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 600px;
+
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: #b84dff;
+
+    margin-bottom: 5px;
+}
+
+
+.subtitle {
+    text-align: center;
+    color: #999;
+
+    margin-bottom: 30px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #69329a;
+    border-radius: 10px;
+
+    background: #17131b;
+    color: #ffffff;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+input:focus,
+textarea:focus {
+    border-color: #b84dff;
+}
+
+
+textarea {
+    min-height: 90px;
+
+    resize: vertical;
+}
+
+
+.big-text {
+    min-height: 180px;
+}
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    color: #c05cff;
+}
+
+
+/* =========================
+   YES / NO
+========================= */
+
+.option {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 14px;
+
+    margin-bottom: 10px;
+
+    background: #17131b;
+
+    border: 1px solid #542477;
+    border-radius: 12px;
+}
+
+
+.option span {
+    font-weight: bold;
+}
+
+
+.switch {
+    display: flex;
+
+    gap: 5px;
+}
+
+
+.switch button {
+    border: 0;
+
+    padding: 8px 12px;
+
+    border-radius: 7px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    color: #aaa;
+
+    background: #29242d;
+}
+
+
+.switch .yes.active {
+    background: #20a85a;
+    color: white;
+}
+
+
+.switch .no.active {
+    background: #d93636;
+    color: white;
+}
+
+
+/* =========================
+   GENERATE
+========================= */
+
+.generate {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #9d3cff;
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.generate:active {
+    transform: scale(0.97);
+}
+
+
+#status {
+    text-align: center;
+
+    margin-top: 15px;
+
+    color: #8affb0;
+    font-weight: bold;
+}
